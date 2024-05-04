@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(240, 231, 180);
+}
+.box{
+    border:3px white solid;
+    height: 400px;
+    width: 400px;
+    border-radius: 5%;
+    background-color: white;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+}
+.heading{
+    font-weight: bolder;
+    padding-left: 30px;
+}
+.amount{
+    font-weight: bolder;
+    padding-left: 30px;
+}
+.amount p{
+  margin-bottom: 0px;
+  padding-top: 5px;
+}
+.amount input{
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+}
+.from-to{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#mySelect{
+    height: 32px;
+    width: 150px;
+    border-radius: 8px;
+    background-color: azure;
+}
+.answer{
+    padding-top: 20px;
+    font-weight: bolder;
+    padding-left: 60px;
+}
+.get-rate button{
+    margin-top: 20px;
+    height: 45px;
+    border-radius: 9px;
+    width: 300px;
+    background-color: rgb(185, 65, 199);
+    color: white;
+  margin-left: 55px;
+font-weight: bolder;
+font-size: 15px;
+}

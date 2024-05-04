@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Currency Converter</title>
+</head>
+<body>
+<div class="box">
+    <div class="heading">
+        <h2>Currency Converter</h2>
+    </div>
+    <div class="amount">
+        <p>Enter Amount</p>
+        <input id="userin"  placeholder="Enter amount in USD" >
+    </div>
+    <div class="from-to">
+        <div class="from-value">
+           <p> From</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRgSiXQ6YrlxOj1ilBd_uqq7zVMf6VLHfFkEU7h62onQ&s" height="20px">
+            USD
+        </div>
+        <div class="arrow">
+            <i class="fa-solid fa-arrow-right-long fa-lg"></i>
+        </div>
+        <div class="to-value">
+            <p> To</p>
+            <select id="mySelect">
+                <option value="CNY">CNY (Chinese Yuan)</option>
+                <option value="AED">AED(United Arab Emirates Dirham)</option>
+                <option value="ALL">JPY (Japanese Yen)</option>
+                <option value="INR">INR (Indian Rupee)</option>
+                <option value="GBP"> GBP (British Pound Sterling)</option>
+                <option value="EUR"> EUR (Euro)</option>
+                <option value="RUB"> RUB (Russian Ruble)</option>
+                <option value="CAD">CAD (Canadian Dollar)</option>
+              </select>
+        </div>
+    </div>
+    <div class="answer">
+       
+    </div>
+    <div class="get-rate">
+        <button type="button">Get Exchange Rate</button>
+    </div>
+    <script src="app.js"></script>
+</div>
+</body>
+</html>
